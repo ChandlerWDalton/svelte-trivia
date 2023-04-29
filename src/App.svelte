@@ -95,7 +95,7 @@
 <main>
 	<h1>Welcome to Trivia!</h1>
 	{#if !quizStarted}
-	<h4>Options</h4>
+	<h4>Quiz Options</h4>
 	<div>
 		<select bind:value={options.difficulty}>
 			{#each difficulties as difficulty}
